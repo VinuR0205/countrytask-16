@@ -39,6 +39,19 @@ body {
     text-align: center;
     color: orange;
     margin: 20px 0 10px 0;
+    text-transform: uppercase;
+}
+.trancatetext{
+    width :100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    word-break: break-all;
+}
+.trancatetext:hover{
+    overflow: visible;
+    white-space: normal;
 }
 
 .card {

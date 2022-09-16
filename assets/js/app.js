@@ -12,10 +12,10 @@ countries.forEach((contry) => {
                     <h3 class="contryname">
                          ${contry.name}
                     </h3>
-                    <p>
+                    <p >
                         <b>capital</b>: ${contry.capital}
                     </p>
-                    <p>
+                    <p class="trancatetext">
                         <b>Languages</b>: ${contry.languages}
                     </p>
                     <p>
